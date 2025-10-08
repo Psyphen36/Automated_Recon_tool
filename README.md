@@ -239,9 +239,3 @@ If all return valid versions — you’re good to go 🎯
 * [Hakluke](https://github.com/hakluke)
 * [OWASP Amass](https://github.com/OWASP/Amass)
 * [LC](https://github.com/lc/gau)
-
----
-
-**Happy Recon! 🕵️‍♂️**
-
-```
