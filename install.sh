@@ -14,6 +14,15 @@ TOOLS=(
   "github.com/projectdiscovery/naabu/v2/cmd/naabu@latest"
   "github.com/ffuf/ffuf@latest"
   "github.com/hakluke/hakrawler@latest"
+  "github.com/dark-warlord14/jsleak@latest"
+  "github.com/gwen001/github-subdomains@latest"
+  "github.com/sa7mon/S3Scanner@latest"
+  "github.com/jobertabma/vhostscan@latest"
+  "github.com/s0md3v/corsy@latest"
+  "github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest"
+  "github.com/rbsec/sslscan@latest"
+  "github.com/projectdiscovery/dnsx/cmd/dnsx@latest"
+
 )
 
 for tool in "${TOOLS[@]}"; do
