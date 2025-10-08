@@ -16,7 +16,31 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 ---
 
-## 📦 Tools Installation
+## 📦 Tools Installation In One Go
+
+### Install it in one go
+To install all tools at once run:
+
+```bash
+chmod +x install_recon_tools.sh
+./install_recon_tools.sh
+```
+also before running the tool make sure to install the necesary python packages by simply going to the folder and running:
+```
+python3 -m venv recon_tool_env
+```
+then
+```
+source recon_tool_env/bin/activate
+```
+after activating the python environment install the packages from pip by using:
+```
+pip3 install -r requirements.txt
+```
+
+
+---
+## 📦 Manually installing the tool one by one
 
 ### 🕵️ Subfinder
 
@@ -25,17 +49,6 @@ Passive subdomain enumeration tool.
 ```bash
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
-
----
-### Install it in one go
-To install all tools at once run:
-
-```bash
-chmod +x install_recon_tools.sh
-./install_recon_tools.sh
-```
-
----
 
 ---
 

@@ -4,7 +4,7 @@ set -e
 TOOLS=(
   "github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest"
   "github.com/tomnomnom/assetfinder@latest"
-  "github.com/OWASP/Amass/v4/...@master"
+  "github.com/owasp-amass/amass/v4/...@master"
   "github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest"
   "github.com/projectdiscovery/dnsx/cmd/dnsx@latest"
   "github.com/projectdiscovery/httpx/cmd/httpx@latest"
