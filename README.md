@@ -38,7 +38,19 @@ after activating the python environment install the packages from pip by using:
 pip3 install -r requirements.txt
 ```
 
-
+If you do the installation and setup properly you can now be able to run cli.py without any errors you can either check the command flags by using `python3 cli.py -h` or run this directly instead:
+```
+❯ python3 cli.py -t dyson.com -w /usr/share/SecLists/Discovery/Web-Content/combined_directories.txt --screenshots --advanced --fuzz
+```
+the output should be something similar to this:
+```
+2025-10-08 15:30:03,657 INFO Initialized Recon for dyson.com -> advanced_recon_results/dyson.com
+2025-10-08 15:30:03,661 INFO [*] Starting advanced reconnaissance pipeline
+2025-10-08 15:30:03,661 INFO [*] Running passive enumeration (subfinder / assetfinder / amass)
+2025-10-08 15:30:03,661 INFO   - Running subfinder: /home/ozz/go/bin/subfinder -d dyson.com -silent
+2025-10-08 15:30:18,706 INFO   - Running assetfinder: /home/ozz/go/bin/assetfinder --subs-only dyson.com
+2025-10-08 15:30:22,817 INFO   - Running amass: /home/ozz/go/bin/amass enum -passive -d dyson.com -norecursive
+```
 ---
 ## 📦 Manually installing the tool one by one
 
