@@ -79,7 +79,7 @@ go install github.com/tomnomnom/assetfinder@latest
 Powerful subdomain enumeration and network mapping tool.
 
 ```bash
-go install -v github.com/OWASP/Amass/v4/...@master
+go install -v github.com/owasp-amass/amass/v4/...@master
 ```
 
 > **Note:** Amass requires Go ≥ 1.22.
